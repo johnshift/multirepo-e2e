@@ -7,18 +7,8 @@
     "test:open": "npm run lint && cypress open",
     "lint": "eslint . --ext .ts"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/johnshift/multirepo-e2e.git"
-  },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/johnshift/multirepo-e2e/issues"
-  },
-  "homepage": "https://github.com/johnshift/multirepo-e2e#readme",
-  "devDependencies": {
+  "dependencies": {
     "@testing-library/cypress": "^8.0.1",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
