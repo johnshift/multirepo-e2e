@@ -1,5 +1,5 @@
-describe('some title', () => {
-  it('should perform basic google search', () => {
+describe('Frontend App', () => {
+  it('should be up and running', () => {
     const frontendUrl: string = Cypress.env('FRONTEND_URL');
 
     cy.visit(frontendUrl);
